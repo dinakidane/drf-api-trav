@@ -5,7 +5,7 @@ from .models import Subscriber
 
 class SubscriberSerializer(serializers.ModelSerializer):
     """
-    Serializer for the Follower model
+    Serializer for the Subscriber model
     Create method handles the unique constraint on 'owner' and 'subscribed'
     """
     owner = serializers.ReadOnlyField(source='owner.username')
