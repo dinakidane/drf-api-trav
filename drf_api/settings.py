@@ -66,7 +66,6 @@ DEBUG = 'DEV' in os.environ
 ALLOWED_HOSTS = [
     os.environ.get('ALLOWED_HOST'),
     'localhost',
-    'https://drf-trav-2076116b2ebe.herokuapp.com',
     '8000-dinakidane-drfapitrav-6pr46jp75qo.ws-eu111.gitpod.io',
 ]
 
