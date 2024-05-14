@@ -10,7 +10,7 @@ class Post(models.Model):
     content = models.TextField(blank=True)
     image = models.ImageField(
         upload_to='images/', default='../default_post_ulbipl', blank=True
-    ),
+    )
 
     class Meta:
         ordering = ['-created_at']
