@@ -186,3 +186,38 @@ Users can also see the number of favourites and replies on each post. Clicking o
 
 ### Travel Feed
 
+- To access the feed pages, click on the 'Travel Feed' option in the navigation bar. These pages retrieve all posts from the API, but only display posts from profiles that the logged-in user follows. 
+- Note that this feature is only available to logged-in users. If a user isn't following any profiles yet, a 'No Results Found' message will be displayed.
+
+### Creating a post
+
+- ![Create Post](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715934121/Screenshot_2024-05-17_at_09.21.52_q88qrd.png)
+
+- Logged-in users can share their thoughts and experiences with the community by creating new posts. By selecting the 'Share your experience' option in the navigation bar, users are taken to the Create Post form.
+- This intuitive form requires all essential fields to be completed, including the mandatory image upload. Once submitted, the new post appears on the Posts Page, and users are automatically redirected to the individual post page to view their creation. 
+- Additionally, each new post increases the user's post count, which is displayed on their profile page, showcasing their engagement and contributions.
+
+### Posts Page
+
+- The Post Page provides an in-depth look at a single post, displaying both the post's details and its comments
+- Users can navigate to this page by clicking on the post image or comment icon from the Posts Page or Posts Feed. 
+
+- ![Post Edit](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715934627/Screenshot_2024-05-17_at_09.30.19_dur7qe.png)
+
+- Owners of the post have the option to edit or delete their post by selecting the three dots next to the post's creation date.
+
+- ![No replies](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715934874/Screenshot_2024-05-17_at_09.34.29_br80rw.png)
+
+- The comments section is located below the post details. If no comments have been made, a message will indicate this. 
+
+- ![Logged out user reply](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715934798/Screenshot_2024-05-17_at_09.32.58_n9cevz.png)
+
+- Logged-out users can view comments but need to log in to leave a comment. Once logged in, a comment form appears above the existing comments, allowing users to add their thoughts on the post.
+
+- When a user selects "Delete," the post is removed from the API and disappears from the platform. The user is then redirected to the Post Create form to make a new post if desired. 
+
+- Selecting "Edit" takes the user to a form pre-filled with the post's current details, allowing for modifications. After updating and saving, the user is returned to the Post Page, where the revised post is displayed.
+
+
+
+

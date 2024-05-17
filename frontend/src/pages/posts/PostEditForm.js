@@ -86,7 +86,7 @@ function PostEditForm() {
   const textFields = (
     <div className="text-center">
       <Form.Group>
-        <Form.Label>Title</Form.Label>
+        <Form.Label>City & Country</Form.Label>
         <Form.Control
           type="text"
           name="title"
@@ -101,7 +101,7 @@ function PostEditForm() {
       ))}
 
       <Form.Group>
-        <Form.Label>Content</Form.Label>
+        <Form.Label>Description</Form.Label>
         <Form.Control
           as="textarea"
           rows={6}
