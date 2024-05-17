@@ -318,7 +318,7 @@ Users can also see the number of favourites and replies on each post. Clicking o
 
 </details>
 
-<details><summary>Post Create</summary>
+<details><summary>Global Affair page Mobile</summary>
 
 
 ![Homepage Mobile](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715939135/Screenshot_2024-05-17_at_10.45.28_tbnq2e.png)
