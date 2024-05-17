@@ -10,9 +10,9 @@
 
 ![Project Board](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715925622/Screenshot_2024-05-17_at_06.38.36_rvagje.png)
 
-### User stories
+## User stories
 
-#### Navigation & Authentication
+### Navigation & Authentication
 
 1. Navigation (Navbar):
     - As a user, I want a navigation bar accessible on all pages so that I can switch between pages easily.
@@ -38,7 +38,7 @@
 8. **Avatar:**
     - As a user, I want to see avatars of other users so that I can identify them easily within the application.
 
-#### Posts
+### Posts
 
 9. **View Post Page:**
     - As a user, I want to access the post page so that I can read comments about a particular post.
@@ -61,7 +61,7 @@ As the author of a comment, I want to delete it so that I can remove it from the
 15. **Edit Comment:**
     - As the author of a comment, I want to edit it so that I can update or correct it.
 
-#### Profiles
+### Profiles
 
 16. **View Other Users' Profiles:**
     - As a user, I want to view other users' profiles so that I can see their posts and learn more about them.
@@ -83,3 +83,32 @@ As a logged-in user, I want to update my profile so that I can change my picture
 
 22. **Update Username and Password:**
 As a logged-in user, I want to change my username and password so that I can modify my display name and keep my profile secure.
+
+
+### Adding and favouriting a post
+
+23. **Create Posts:**
+    - As a logged-in user, I want to create posts so that I can share my images with the community.
+
+24. **View Single Post:**
+    - As a user, I want to view the details of a specific post so that I can understand it better.
+
+25. **Like Post:**
+As a logged-in user, I want to like posts so that I can express support for the content I find interesting.
+
+### Posts
+
+24. **View Recent Posts:**
+    - As a user, I want to see the most recent posts ordered chronologically, so I can stay updated with the latest content.
+
+25. **Search Posts:**
+    - As a user, I want to search for posts using keywords so that I can find the content and profiles that interest me the most.
+
+26. **View Liked Posts:**
+    - As a logged-in user, I want to see the posts I liked so that I can revisit the content I enjoy.
+
+27. **View Followed Users' Posts:**
+    - As a logged-in user, I want to see posts from the users I follow so that I can stay informed about their latest updates.
+
+28. **Infinite Scroll:**
+    - As a user, I want to scroll through the site's images with automatic loading so that I can browse without needing to click "next page."
