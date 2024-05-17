@@ -216,7 +216,72 @@ Users can also see the number of favourites and replies on each post. Clicking o
 
 - When a user selects "Delete," the post is removed from the API and disappears from the platform. The user is then redirected to the Post Create form to make a new post if desired. 
 
+- ![Edit post](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715935497/Screenshot_2024-05-17_at_09.44.48_pvsock.png)
+
 - Selecting "Edit" takes the user to a form pre-filled with the post's current details, allowing for modifications. After updating and saving, the user is returned to the Post Page, where the revised post is displayed.
+
+### Replies
+
+- Each Post Page features a "Reply" button that encourages users to respond. 
+- The reply form has a text input field where users can write their replies. 
+- Replies cannot be published without text. 
+- Once a reply is posted, the reply count for that post increases. 
+
+- ![Reply Edit](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715935863/Screenshot_2024-05-17_at_09.50.55_tvvoit.png)
+
+- Reply owners can edit or delete their replies by clicking the three dots menu next to the reply.
+
+### Profile Page
+
+- The Profile Page offers a comprehensive view of a user's presence and activities on A Global Affair. 
+- Users can visit Profile Pages by clicking on avatars across the site, such as in popular profiles, post authors, and replies. 
+- Users can also reach their own Profile Page through the authentication icon in the navigation bar. 
+- Each Profile Page includes:
+    - Profile picture
+    - Username
+    - Profile stats
+    - A Travel Bio section
+    - Published posts
+
+- ![Profile page](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715936000/Screenshot_2024-05-17_at_09.53.13_jdknxf.png)
+
+- When a user registers on A Global Affair, a basic profile is automatically created with a username, password, and default avatar. Initially, the Profile Page displays only the Profile Stats, which include:
+
+- Number of published posts
+- Number of profiles the user follows
+- Number of subscribers
+
+-![dropdown profile](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715936791/Screenshot_2024-05-17_at_10.06.23_nse2ox.png)
+
+- Selecting the "Edit Profile" option takes the user to a form to update their profile picture and about section, allowing them to share as much or as little personal information as they choose.
+
+- ![Edit bio](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715936844/Screenshot_2024-05-17_at_10.06.41_zkforx.png)
+
+- Each profile features a "Subscribe" button, enabling others to subscribe or subscribe that user. The user's published posts and events are also displayed on their Profile Page, accessible via React-Bootstrap tabs for easy navigation.
+
+### Reusable React Components
+
+1. **Asset**
+- Displays various types of assets, such as images and videos.
+
+2. **Avatar**
+- Displays a user's profile picture or icon.
+
+3. **NavBar**
+- Provides a navigation bar with links to different parts of the application.
+
+4. **DropDown**
+- Provides a menu that users can interact with to select an option
+
+5. **NotFound**
+- The Not Found component appears when users try to access an invalid URL.
+
+
+
+
+
+
+
 
 
 
