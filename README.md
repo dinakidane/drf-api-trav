@@ -288,10 +288,14 @@ Users can also see the number of favourites and replies on each post. Clicking o
 
 ![Home Page](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715938169/Screenshot_2024-05-17_at_10.29.11_z7kpgc.png)
 
+</details>
+
 <details><summary>Sign Up Form</summary>
 
 
 ![Sign Up](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715938558/Screenshot_2024-05-17_at_10.31.35_h7yj9j.png)
+
+</details>
 
 <details><summary>Sign In Form</summary>
 
