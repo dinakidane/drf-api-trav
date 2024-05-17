@@ -26,15 +26,60 @@
 4. Authentication (Sign in):
     - As a user, I want to log in to the app so that I can utilize the features available to logged-in users.
 
-5. Authentication (Logged-in Status):
+5. **Authentication (Logged-in Status):**
     - As a user, I want to know if I'm logged in or not so that I can log in if necessary.
 
-6. Authentication (Refreshing Access Tokens):
+6. **Authentication (Refreshing Access Tokens):**
     - As a user, I want to stay logged in until I choose to log out, ensuring an uninterrupted user experience.
 
-7. Navigation (Conditional Rendering):
+7. **Navigation (Conditional Rendering):**
     - As a user who's logged out, I want to see options to sign in or sign up so that I can access the app's features.
 
-8. Avatar:
+8. **Avatar:**
     - As a user, I want to see avatars of other users so that I can identify them easily within the application.
 
+#### Posts
+
+9. **View Post Page:**
+    - As a user, I want to access the post page so that I can read comments about a particular post.
+
+10. **Edit Post:**
+    - As the creator of a post, I want to edit the title and description so that I can make corrections or updates to it after publishing.
+
+11. **Add Comment:**
+    - As a logged-in user, I want to add comments to a post so that I can share my opinions on it.
+
+12. **Comment Timestamp:**
+    - As a user, I want to see how long ago a comment was made so that I can gauge its relevance.
+
+13. **Read Comments:**
+- As a user, I want to read comments on posts so that I can see what others think about them.
+
+14. **Delete Comment:**
+As the author of a comment, I want to delete it so that I can remove it from the platform.
+
+15. **Edit Comment:**
+    - As the author of a comment, I want to edit it so that I can update or correct it.
+
+#### Profiles
+
+16. **View Other Users' Profiles:**
+    - As a user, I want to view other users' profiles so that I can see their posts and learn more about them.
+
+17. **Popular Profiles:**
+    - As a user, I want to see a list of the most followed profiles so that I can discover popular content creators.
+
+18. **User Profile Stats:**
+    - As a user, I want to see details about a specific user like their bio, number of posts, followers, and accounts they follow so that I can understand more about them.
+
+19. **Follow/Unfollow User:**
+    - As a logged-in user, I want to follow or unfollow other users so that I can customize my feed based on whose posts I want to see.
+
+20. **View All Posts by User:**
+    - As a user, I want to view all posts made by a particular person so that I can catch up on their latest content or decide whether to follow them.
+
+21. **Edit Profile:**
+As a logged-in user, I want to update my profile so that I can change my picture and bio.
+
+22. **Update Username and Password:**
+As a logged-in user, I want to change my username and password so that I can modify my display name and keep my profile secure.
