@@ -302,20 +302,216 @@ Users can also see the number of favourites and replies on each post. Clicking o
 
 ![Sign In](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715938399/Screenshot_2024-05-17_at_10.33.01_pu5hwi.png)
 
+</details>
+
 <details><summary>Profile Page</summary>
 
 
 ![Profile Page](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715938565/Screenshot_2024-05-17_at_10.35.54_c4qwqi.png)
+
+</details>
 
 <details><summary>Post Create</summary>
 
 
 ![Post Create](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715938741/Screenshot_2024-05-17_at_10.38.55_bmu7mq.png)
 
+</details>
+
 <details><summary>Post Create</summary>
 
 
 ![Homepage Mobile](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715939135/Screenshot_2024-05-17_at_10.45.28_tbnq2e.png)
+
+</details>
+
+## Backend
+
+1. Users
+- These are adaptations of Django's default User model, modified to meet our specifications.
+
+2. Profiles
+- These are auto-created during user sign-up and are customised to include vital details.
+
+3. Posts
+- Members can generate posts of their travel, which are shared across the platform.
+
+4. Favourites
+- Show if a member enjoys another member's post.
+
+5. Replies
+- Allow members to give responses and opinions on entries.
+
+6. Subscribers
+-  Allow members to track each other on the platform.
+
+## Design
+
+### Colour Scheme
+
+![Colour](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715940247/Screenshot_2024-05-17_at_11.03.57_fidkki.png)
+
+- Green is universally associated with nature, landscapes, and the environment. It evokes images of lush forests, verdant meadows, and serene landscapes, all of which are common destinations for travelers. This connection makes green a natural fit for a travel blog, reinforcing the theme of exploration and adventure.
+- Green is a versatile color that pairs well with many other colours, allowing for a cohesive and visually appealing website design. It can be used in various shades and tones to create a dynamic and attractive layout.
+- The different shades of green encourages readers to stay longer, explore more content, and feel inspired by the journeys shared on your site.
+
+### Logo 
+
+![Logo](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715940446/Screenshot_2024-05-17_at_11.07.19_mfeqy7.png)
+
+- The dark grey background gives a sleek and credible appearance.
+- White text on dark grey is easy to read and stands out.
+- The plane and luggage clearly signal a travel theme.
+
+### Typography
+
+- Font choice: DM Sans
+    - Its design ensures consistent appearance across different devices and screen resolutions.
+    - Its simple, clean lines give it a modern and professional look.
+
+### Imagery
+
+- Using images from google on the Sign In and Sign Up page 
+- These images portray travelers inspiring and creating positive emotions. It is relatable, visually appealing, reinforces the travel theme, motivates users to join, and encourages exploration.
+- These images evoke a sense of adventure and freedom, inspiring visitors to join and explore new destinations.
+
+## Frontend Technologies
+
+### Languages
+
+- HTML5: Defines the content and structure of the website.
+- CSS3: Applies the styling and design to the website.
+- JavaScript: Adds interactive features to the website.
+- React.js: Serves as the foundation for the frontend components.
+
+### Framworks, Web Applications & Software
+
+- React Bootstrap: A CSS framework for building robust, responsive, mobile-first websites.
+- Balsamiq: Tool for creating wireframes.
+- GitHub: Hosts the repository, tracks commit history, and manages the project board with user stories.
+- Heroku: Cloud platform for deploying the application.
+- Logo: Tool for generating the A Global Affair logo.
+- Favicon: Tool for creating the favicon.
+- Google Chrome DevTools: Tool for debugging and testing responsiveness.
+- Google Fonts: Imports the website's font.
+- Cloudinary: Service for hosting image files.
+- HTML Validation: Tool for validating HTML code.
+- CSS Validation: Tool for validating CSS code.
+- JSHint Validation: Tool for validating JavaScript code.
+- Font Awesome: Provides icons for the user interface.
+
+## Backend Technologies
+
+### Languages
+
+- Python: Powers the functionality of the Django REST Framework (DRF) backend.
+
+### Software & Frameworks
+
+- Django Rest Framework: A toolkit for constructing web APIs.
+- GitHub: Platform for repository hosting, commit history tracking, and user story project board management.
+- Heroku: Cloud service for application deployment.
+- Cloudinary: Service for storing and managing project image files.
+
+### Libraries
+
+- asgiref
+- cloudinary
+- cryptography
+- dj-database-url
+- dj-rest-auth
+- Django
+    - advanced Python web framework designed to promote rapid development and maintainable, pragmatic design.
+- django-allauth: 
+    - A comprehensive suite of Django apps for authentication, registration, account management, and third-party (social) account integration.
+- django-cloudinary-storage
+- django-cors-headers
+- django-filter
+- djangorestframework
+- djangorestframework-simplejwt
+- gunicorn
+- oauthlib
+- Pillow
+- psycopg2
+- PyJWT
+- python3-openid
+- pytz
+- requests-oauthlib
+- sqlparse
+- urllib3
+- whitenoise
+
+## Frontend Deployment
+
+### Deploy to Heroku
+
+- In your Heroku account, create a new app with a unique, project-related name. 
+- Choose your region and click 'Create App'. 
+- Go to the 'Deploy' tab, select GitHub as the deployment method, locate your project repository, and click 'Connect'. 
+- Click 'Deploy branch' to build the application. 
+- When the build succeeds, click 'Open App' to view your application in the browser.
+
+### Fork Repository
+
+- After logging into GitHub, find the repository. 
+- In the upper right corner, click the 'Fork' button to create a duplicate of the original repository.
+
+### Clone Repository
+
+- A Git clone makes a connected copy of the project that stays synchronized with the original repository. 
+- To create a clone, click the 'Code' button in the desired repository and choose the 'Clone' option from the dropdown menu.
+
+## Backend Deployment
+
+### Heroku
+
+- Create GitHub Repository: Use the Code Institute template and open in GitPod.
+- Install Django and Libraries: Run commands to install necessary packages and create a requirements file.
+- Set Up Django Project: Create the project and apps, then add them to INSTALLED_APPS.
+- Migrate and Run Server: Run migrations and start the server to test.
+- Deploy on Heroku: Create a new Heroku app, set up PostgreSQL with ElephantSQL, and add DATABASE_URL to Heroku Config Vars.
+- Set Environment Variables: Create env.py in GitPod with database URL and secret key, and add SECRET_KEY to Heroku Config Vars.
+- Update settings.py: Import environment variables, set the secret key, and configure the database.
+- Set Up Cloudinary: Add Cloudinary URL to env.py and Heroku Config Vars, update INSTALLED_APPS and static files settings.
+- Prepare for Deployment: Add ALLOWED_HOSTS, create a Procfile, commit and push changes to GitHub.
+- Deploy on Heroku: Connect the GitHub repository in Heroku and deploy the branch.
+
+### Forking Repository
+
+- Log in to GitHub and locate the repository.
+- Click the 'Fork' button on the top right to create a copy of the original repository.
+
+### Cloning Repository
+
+- In the repository, click the code tab and copy the URL from the 'code' menu.
+- Open Git Bash in your preferred IDE and navigate to your desired directory.
+- Type git clone followed by the copied URL to create a local clone.
+- Install the required dependencies with: 
+    - pip3 install -r requirements.txt
+- Set up the environment file (env.py) with necessary variables and ensure it’s added to .gitignore.
+- Add these variables to Heroku config vars.
+- Perform necessary migrations:
+    - python3 manage.py migrate
+- Run the server:
+    - python3 manage.py runserver
+
+## Credits
+
+- Code Institute Slack Community: A Slack group for troubleshooting and frequently asked questions.
+- Code Institute Walkthrough Modules: Guided tutorials for developing the Moments app.
+- Stack Overflow: Resource for troubleshooting and problem-solving.
+- Code Institute Tutor Support: Assistance and support from tutors.
+- React Bootstrap Documentation: Used for styling and creating responsive web pages.
+
+
+
+
+
+
+
+
+
+
 
 
 
