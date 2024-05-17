@@ -286,7 +286,34 @@ Users can also see the number of favourites and replies on each post. Clicking o
 <details><summary>A Global Affair - Homepage</summary>
 
 
-![Home Page Desktop](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715938169/Screenshot_2024-05-17_at_10.29.11_z7kpgc.png)
+![Home Page](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715938169/Screenshot_2024-05-17_at_10.29.11_z7kpgc.png)
+
+<details><summary>Sign Up Form</summary>
+
+
+![Sign Up](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715938558/Screenshot_2024-05-17_at_10.31.35_h7yj9j.png)
+
+<details><summary>Sign In Form</summary>
+
+
+![Sign In](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715938399/Screenshot_2024-05-17_at_10.33.01_pu5hwi.png)
+
+<details><summary>Profile Page</summary>
+
+
+![Profile Page](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715938565/Screenshot_2024-05-17_at_10.35.54_c4qwqi.png)
+
+<details><summary>Post Create</summary>
+
+
+![Post Create](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715938741/Screenshot_2024-05-17_at_10.38.55_bmu7mq.png)
+
+<details><summary>Post Create</summary>
+
+
+![Homepage Mobile](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715939135/Screenshot_2024-05-17_at_10.45.28_tbnq2e.png)
+
+
 
 
 
