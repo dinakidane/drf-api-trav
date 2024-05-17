@@ -15,26 +15,26 @@
 #### Navigation & Authentication
 
 1. Navigation (Navbar):
-- - As a user, I want a navigation bar accessible on all pages so that I can switch between pages easily.
+    - As a user, I want a navigation bar accessible on all pages so that I can switch between pages easily.
 
 2. Routing:
-- - As a user, I want to navigate between pages quickly to browse content smoothly without reloading.
+    - As a user, I want to navigate between pages quickly to browse content smoothly without reloading.
 
 3. Authentication (Sign up):
-- - As a user, I want to register for a new account so that I can access all the features available to registered users.
+    - As a user, I want to register for a new account so that I can access all the features available to registered users.
 
 4. Authentication (Sign in):
-- - As a user, I want to log in to the app so that I can utilize the features available to logged-in users.
+    - As a user, I want to log in to the app so that I can utilize the features available to logged-in users.
 
 5. Authentication (Logged-in Status):
-- - As a user, I want to know if I'm logged in or not so that I can log in if necessary.
+    - As a user, I want to know if I'm logged in or not so that I can log in if necessary.
 
 6. Authentication (Refreshing Access Tokens):
-- - As a user, I want to stay logged in until I choose to log out, ensuring an uninterrupted user experience.
+    - As a user, I want to stay logged in until I choose to log out, ensuring an uninterrupted user experience.
 
 7. Navigation (Conditional Rendering):
-- - As a user who's logged out, I want to see options to sign in or sign up so that I can access the app's features.
+    - As a user who's logged out, I want to see options to sign in or sign up so that I can access the app's features.
 
 8. Avatar:
-- - As a user, I want to see avatars of other users so that I can identify them easily within the application.
+    - As a user, I want to see avatars of other users so that I can identify them easily within the application.
 
