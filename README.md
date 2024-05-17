@@ -141,7 +141,7 @@
 
 ![Sign In](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715928300/Screenshot_2024-05-17_at_07.44.40_gtwhen.png)
 
-- If a user already has a Cool the Earth account, they can click on the "Sign In" option in the navigation bar to log in.
+- If a user already has a Global Affair, they can click on the "Sign In" option in the navigation bar to log in.
 
 ### Global Affair section / Homepage
 
@@ -156,9 +156,33 @@
 
 ![Logged in User Popular Profiles](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715929127/Screenshot_2024-05-17_at_07.57.10_dmfxib.png)
 
-- Logged-in users, however, can also see follow and unfollow options next to each profile. Clicking on any profile avatar takes the user to that individual's complete profile page.
+- Logged-in users, however, can also see subscribe and unsubscribe options next to each profile. Clicking on any profile avatar takes the user to that individual's complete profile page.
+
+#### Posts
+
+- The Posts section displays all user-created posts on the platform. Posts are fetched from the API and sorted by creation date, with the newest posts appearing first.
+
+- ![Post](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715930038/Screenshot_2024-05-17_at_08.13.49_kevm3t.png)
+
+- Each post contains:
+
+    - User details of the creator
+    - Creation date
+    - Written content
+    - An image
+    - Location
+
+Users can also see the number of favourites and replies on each post. Clicking on the post image or the replies count directs the user to the post's individual page.
+
 
 #### Searchbar
 
+![Searchbar](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715930266/Screenshot_2024-05-17_at_08.17.40_rkamui.png)
 
-#### Posts
+- Users can find specific posts using the search bar, which allows searches by:
+
+    - The post creator's username
+    - The content of the post
+
+### Travel Feed
+
