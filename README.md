@@ -53,10 +53,10 @@
     - As a user, I want to see how long ago a comment was made so that I can gauge its relevance.
 
 13. **Read Comments:**
-- As a user, I want to read comments on posts so that I can see what others think about them.
+    - As a user, I want to read comments on posts so that I can see what others think about them.
 
 14. **Delete Comment:**
-As the author of a comment, I want to delete it so that I can remove it from the platform.
+    - As the author of a comment, I want to delete it so that I can remove it from the platform.
 
 15. **Edit Comment:**
     - As the author of a comment, I want to edit it so that I can update or correct it.
@@ -79,10 +79,10 @@ As the author of a comment, I want to delete it so that I can remove it from the
     - As a user, I want to view all posts made by a particular person so that I can catch up on their latest content or decide whether to follow them.
 
 21. **Edit Profile:**
-As a logged-in user, I want to update my profile so that I can change my picture and bio.
+    - As a logged-in user, I want to update my profile so that I can change my picture and bio.
 
 22. **Update Username and Password:**
-As a logged-in user, I want to change my username and password so that I can modify my display name and keep my profile secure.
+    - As a logged-in user, I want to change my username and password so that I can modify my display name and keep my profile secure.
 
 
 ### Adding and favouriting a post
@@ -94,7 +94,7 @@ As a logged-in user, I want to change my username and password so that I can mod
     - As a user, I want to view the details of a specific post so that I can understand it better.
 
 25. **Like Post:**
-As a logged-in user, I want to like posts so that I can express support for the content I find interesting.
+    - As a logged-in user, I want to like posts so that I can express support for the content I find interesting.
 
 ### Posts
 
@@ -112,3 +112,31 @@ As a logged-in user, I want to like posts so that I can express support for the 
 
 28. **Infinite Scroll:**
     - As a user, I want to scroll through the site's images with automatic loading so that I can browse without needing to click "next page."
+
+## Features
+
+### Navigation
+
+- The navigation bar features a sleek and minimalist design that enhances the user experience. It changes its appearance based on whether you are logged in or not. On tablets and mobile devices, it turns into an easy-to-use hamburger menu.
+
+- ![Navbar](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715927747/Screenshot_2024-05-17_at_07.34.59_pwekri.png)
+
+- When a user is logged out, the navigation bar includes the following items:
+    - Logo: Always visible, this logo links back to the homepage.
+    - 'A Global Affair': This menu item takes users to the "Home" section, showcasing a variety of posts.
+    - Authentication: Prominently displayed "Sign In" and "Sign Up" icons provide quick access to the login and registration processes.
+
+- ![Navbar](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715928055/Screenshot_2024-05-17_at_07.40.48_ryqgv4.png)
+
+- When a user is logged in, more options become available:
+    - 'Travel' Feed : Users can explore content from profiles they follow, favorite posts, reply to posts, and subscribe to content.
+    - Authentication: The authentication icons change to show a link to the user's profile page and a "Sign Out" option for easy exit.
+    - Favourites: This page displays all the posts the user has liked.
+
+### Authentication
+
+![Sign Up](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715928307/Screenshot_2024-05-17_at_07.44.59_z3uidu.png)
+
+    - Users who haven't created an account can click on the "Sign Up" link in the navigation bar to register. The registration process follows the standard dj-rest/auth/registration method.
+
+![Sign In](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715928300/Screenshot_2024-05-17_at_07.44.40_gtwhen.png)
