@@ -137,6 +137,28 @@
 
 ![Sign Up](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715928307/Screenshot_2024-05-17_at_07.44.59_z3uidu.png)
 
-    - Users who haven't created an account can click on the "Sign Up" link in the navigation bar to register. The registration process follows the standard dj-rest/auth/registration method.
+- Users who haven't created an account can click on the "Sign Up" link in the navigation bar to register. The registration process follows the standard dj-rest/auth/registration method.
 
 ![Sign In](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715928300/Screenshot_2024-05-17_at_07.44.40_gtwhen.png)
+
+- If a user already has a Cool the Earth account, they can click on the "Sign In" option in the navigation bar to log in.
+
+### Global Affair section / Homepage
+
+#### Popular Profiles
+
+- The Popular Profiles Component is a standout feature across the site. On larger screens, it is displayed on the right side of every page, while on smaller screens, it is located at the top. 
+- This component ranks users based on their subscriber count, showing the top ten profiles on larger screens and the top four profiles on smaller screens.
+
+- ![Logged out Popular profiles](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715929130/Screenshot_2024-05-17_at_07.56.57_gtqqv3.png)
+
+- For users who aren't logged in, the component shows the profile avatar and username. 
+
+![Logged in User Popular Profiles](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715929127/Screenshot_2024-05-17_at_07.57.10_dmfxib.png)
+
+- Logged-in users, however, can also see follow and unfollow options next to each profile. Clicking on any profile avatar takes the user to that individual's complete profile page.
+
+#### Searchbar
+
+
+#### Posts
