@@ -276,6 +276,18 @@ Users can also see the number of favourites and replies on each post. Clicking o
 5. **NotFound**
 - The Not Found component appears when users try to access an invalid URL.
 
+### Potential Features for the future:
+
+- Live chats to communicate with other travellers around the world!
+- Option to upload videos
+
+## Wireframes
+
+<details><summary>A Global Affair - Homepage</summary>
+
+
+![Home Page Desktop](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715938169/Screenshot_2024-05-17_at_10.29.11_z7kpgc.png)
+
 
 
 
