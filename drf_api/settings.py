@@ -61,12 +61,13 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = 'DEBUG' in os.environ
+DEBUG = True
 
 ALLOWED_HOSTS = [
     os.environ.get('ALLOWED_HOST'),
     'localhost',
     'drf-trav-2076116b2ebe.herokuapp.com',
+    '8000-dinakidane-drfapitrav-k6cynya501e.ws-eu115.gitpod.io',
 ]
 
 
@@ -198,6 +199,7 @@ USE_TZ = True
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 WHITENOISE_ROOT = BASE_DIR / 'staticfiles' / 'build'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATIC_URL = '/static/'
 
