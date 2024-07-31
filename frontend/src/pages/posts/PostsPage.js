@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 
+import About from './About';
 import Post from "./Post";
 import Asset from "../../components/Asset";
 
@@ -18,6 +19,14 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import { fetchMoreData } from "../../utils/utils";
 import PopularProfiles from "../profiles/PopularProfiles";
 
+const PostsPage = () => {
+  return (
+      <div className="posts-page">
+          <About />
+          {/* Render posts list or other content here */}
+      </div>
+  );
+};
 
 function PostsPage({ message, filter = "" }) {
   const [posts, setPosts] = useState({ results: [] });
