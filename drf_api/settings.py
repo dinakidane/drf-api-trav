@@ -68,6 +68,7 @@ ALLOWED_HOSTS = [
     'localhost',
     'drf-trav-2076116b2ebe.herokuapp.com',
     '8000-dinakidane-drfapitrav-k6cynya501e.ws-eu115.gitpod.io',
+    'https://8000-dinakidane-globalaffair-4w4w1sfmg72.ws-eu115.gitpod.io/',
 ]
 
 
