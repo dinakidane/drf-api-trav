@@ -66,9 +66,10 @@ DEBUG = True
 ALLOWED_HOSTS = [
     os.environ.get('ALLOWED_HOST'),
     'localhost',
-    'drf-trav-2076116b2ebe.herokuapp.com',
-    '8000-dinakidane-drfapitrav-k6cynya501e.ws-eu115.gitpod.io',
-    'https://8000-dinakidane-globalaffair-4w4w1sfmg72.ws-eu115.gitpod.io/',
+    'https://drf-trav-2076116b2ebe.herokuapp.com'
+    #'drf-trav-2076116b2ebe.herokuapp.com',
+    #'8000-dinakidane-drfapitrav-k6cynya501e.ws-eu115.gitpod.io',
+    #'https://8000-dinakidane-globalaffair-4w4w1sfmg72.ws-eu115.gitpod.io/',
 ]
 
 
@@ -161,6 +162,7 @@ else:
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
     }
+
 
 
 # Password validation
