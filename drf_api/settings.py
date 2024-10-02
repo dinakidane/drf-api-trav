@@ -68,6 +68,7 @@ ALLOWED_HOSTS = [
     'localhost',
     'https://drf-trav-2076116b2ebe.herokuapp.com',
     '8000-dinakidane-drfapitrav-vgu5rk9b2t8.ws.codeinstitute-ide.net'
+    'https://3000-dinakidane-globalaffair-fo1g51p26t3.ws.codeinstitute-ide.net/'
     #'drf-trav-2076116b2ebe.herokuapp.com',
     #'8000-dinakidane-drfapitrav-k6cynya501e.ws-eu115.gitpod.io',
     #'https://8000-dinakidane-globalaffair-4w4w1sfmg72.ws-eu115.gitpod.io/',
@@ -122,7 +123,7 @@ if 'CLIENT_ORIGIN' in os.environ:
     ]
 else:
     CORS_ALLOWED_ORIGIN_REGEXES = [
-        r"^https://.*\.gitpod\.io$",
+        r"^https://.*\.codeinstitute-ide\.net$",
     ]
 
 CORS_ALLOW_CREDENTIALS = True
