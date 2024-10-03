@@ -35,6 +35,7 @@ urlpatterns = [
     path('', include('favourites.urls')),
     path('', include('subscribers.urls')),
     path('', include('reviews.urls')),
+    path('api/', include('contact.urls')),
 ]
 
 # handler404 = TemplateView.as_view(template_name='index.html')
