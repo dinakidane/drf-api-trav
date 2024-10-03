@@ -29,13 +29,13 @@ urlpatterns = [
     path(
         'api/dj-rest-auth/registration/', include('dj_rest_auth.registration.urls')
     ),
-    path('/api/', include('profiles.urls')),
-    path('/api/', include('posts.urls')),
-    path('/api/', include('replies.urls')),
-    path('/api/', include('favourites.urls')),
-    path('/api/', include('subscribers.urls')),
-    path('/api/', include('reviews.urls')),
-    path('/api/', include('contact.urls')),
+    path('', include('profiles.urls')),
+    path('', include('posts.urls')),
+    path('', include('replies.urls')),
+    path('', include('favourites.urls')),
+    path('', include('subscribers.urls')),
+    path('', include('reviews.urls')),
+    path('', include('contact.urls')),
 ]
 
 # handler404 = TemplateView.as_view(template_name='index.html')
