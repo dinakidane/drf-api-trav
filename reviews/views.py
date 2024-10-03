@@ -7,7 +7,7 @@ class ReviewListCreate(generics.ListCreateAPIView):
     """
     View to list all reviews or create a new review if logged in.
     """
-    permission_classes = [permissions.IsAuthenticated]  # Only authenticated users can create reviews
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]  # Only authenticated users can create reviews
     serializer_class = ReviewSerializer  # Specify the serializer to use
     queryset = Review.objects.all()  # Get all reviews
 
