@@ -251,13 +251,19 @@ Users can also see the number of favourites and replies on each post. Clicking o
 - Number of profiles the user follows
 - Number of subscribers
 
--![dropdown profile](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715936791/Screenshot_2024-05-17_at_10.06.23_nse2ox.png)
+- ![dropdown profile](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715936791/Screenshot_2024-05-17_at_10.06.23_nse2ox.png)
 
 - Selecting the "Edit Profile" option takes the user to a form to update their profile picture and about section, allowing them to share as much or as little personal information as they choose.
 
 - ![Edit bio](https://res.cloudinary.com/dgq43ynzg/image/upload/v1715936844/Screenshot_2024-05-17_at_10.06.41_zkforx.png)
 
 - Each profile features a "Subscribe" button, enabling others to subscribe or subscribe that user. The user's published posts and events are also displayed on their Profile Page, accessible via React-Bootstrap tabs for easy navigation.
+
+### About Page
+
+- This section contains information about the website and it allows all users to know what the website entails.
+
+
 
 ### Reusable React Components
 
