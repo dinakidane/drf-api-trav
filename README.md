@@ -263,7 +263,23 @@ Users can also see the number of favourites and replies on each post. Clicking o
 
 - This section contains information about the website and it allows all users to know what the website entails.
 
+- ![Info](https://res.cloudinary.com/dgq43ynzg/image/upload/v1728038434/Screenshot_2024-10-04_at_11.23.05_kvprbt.png)
 
+#### Review Form
+
+- ![Review Form](https://res.cloudinary.com/dgq43ynzg/image/upload/v1728038433/Screenshot_2024-10-04_at_11.23.20_rj3rmo.png)
+
+#### Review Section
+
+- Everyone that is on the about page are able to see the reviews but only those logged in can submit a review about the website
+
+- ![Reviews](https://res.cloudinary.com/dgq43ynzg/image/upload/v1728038434/Screenshot_2024-10-04_at_11.23.12_xzwcwb.png)
+
+#### Contact Form
+
+- For those who'd like to make an enquiry or complaint about the website or another user
+
+- ![Contact](https://res.cloudinary.com/dgq43ynzg/image/upload/v1728038433/Screenshot_2024-10-04_at_11.23.25_xa3tx3.png)
 
 ### Reusable React Components
 
