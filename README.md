@@ -375,6 +375,13 @@ Users can also see the number of favourites and replies on each post. Clicking o
 - These images portray travelers inspiring and creating positive emotions. It is relatable, visually appealing, reinforces the travel theme, motivates users to join, and encourages exploration.
 - These images evoke a sense of adventure and freedom, inspiring visitors to join and explore new destinations.
 
+## Testing
+
+### Manual Testing
+
+![FE Test](https://res.cloudinary.com/dgq43ynzg/image/upload/v1728010796/Screenshot_2024-10-04_at_03.55.15_casuw4.png)
+
+
 ## Frontend Technologies
 
 ### Languages
