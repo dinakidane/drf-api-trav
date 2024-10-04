@@ -367,6 +367,12 @@ Users can also see the number of favourites and replies on each post. Clicking o
 6. Subscribers
 -  Allow members to track each other on the platform.
 
+7. Reviews
+- Allow users to have an opinion on the website
+
+8. Contact
+- Allow users to contact the owner of the site to make a complaint
+
 ## Design
 
 ### Colour Scheme
@@ -403,6 +409,9 @@ Users can also see the number of favourites and replies on each post. Clicking o
 
 ![FE Test](https://res.cloudinary.com/dgq43ynzg/image/upload/v1728010796/Screenshot_2024-10-04_at_03.55.15_casuw4.png)
 
+## Unfixed Bugs
+
+- Default profile picture wasn't able to appear.
 
 ## Frontend Technologies
 
@@ -531,6 +540,7 @@ Users can also see the number of favourites and replies on each post. Clicking o
 - Stack Overflow: Resource for troubleshooting and problem-solving.
 - Code Institute Tutor Support: Assistance and support from tutors.
 - React Bootstrap Documentation: Used for styling and creating responsive web pages.
+
 
 
 
