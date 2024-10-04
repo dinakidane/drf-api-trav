@@ -14,3 +14,12 @@ class ReviewListCreate(generics.ListCreateAPIView):
     def perform_create(self, serializer):
         # Associate the current logged in user with the review being created
         serializer.save(owner=self.request.user)
+
+class ReviewDetail(generics.RetrieveDestroyAPIView):
+    """
+    View to retrieve or delete a specific review.
+    Only the owner of the review can delete it.
+    """
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly, IsOwnerOrReadOnly]  # Restrict delete to the owner
+    serializer_class = ReviewSerializer  # Specify the serializer to use
+    queryset = Review.objects.all()  # Get all reviews (filtered by ID in the URL)
