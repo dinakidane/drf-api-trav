@@ -2,6 +2,7 @@ from django.shortcuts import render
 from rest_framework import generics, permissions
 from .models import Review
 from .serializers import ReviewSerializer
+from .permissions import IsOwnerOrReadOnly
 
 class ReviewListCreate(generics.ListCreateAPIView):
     """
