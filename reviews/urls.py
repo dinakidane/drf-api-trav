@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import ReviewListCreate
+from .views import ReviewListCreate, ReviewDetail
 
 urlpatterns = [
     # Endpoint to list all reviews or create a new one
